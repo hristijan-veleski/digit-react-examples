@@ -1,8 +1,15 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains examples and presentation about React Components and Hooks.
+You can find the presentation in the `presentation` folder.
+Also you can find the finished examples in the `src/final` folder,
+and you can find the examples in the `src/examples` folder.
 
-Currently, two official plugins are available:
+In order to setup and run the project you need to run the following commands:
+```shell
+git clone https://github.com/hristijan-veleski/digit-react-examples.git
+cd digit-react-examples
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
+npm run dev
+```
