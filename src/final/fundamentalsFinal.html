@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+<script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.23.5/babel.js"></script>
+
+<script type="text/babel">
+  function Message({ children }) {
+    return <span>{children}</span>;
+  }
+
+  const rootElement = document.getElementById("root");
+  const element = (
+    <div className="container">
+      <Message>Hello</Message>
+      <Message>World</Message>
+    </div>
+  );
+  const rootNode = ReactDOM.createRoot(rootElement);
+  rootNode.render(element);
+</script>
