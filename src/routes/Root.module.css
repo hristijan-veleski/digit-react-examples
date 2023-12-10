@@ -1,0 +1,54 @@
+.section {
+  width: 100%;
+}
+
+.heading {
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.list_item {
+  position: relative;
+  list-style: none;
+  display: block;
+  padding: 1.5rem 8rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #e5e7eb;
+  max-width: 24rem;
+  background-color: #ffffff;
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  margin: 1.5rem auto;
+}
+
+.list_item:after {
+  content: "»";
+  font-size: 2rem;
+  color: black;
+  position: absolute;
+  opacity: 0;
+  top: 17%;
+  right: 12.5%;
+  transition: 0.5s;
+}
+
+.list_item:hover:after {
+  opacity: 1;
+  right: 20%;
+}
+
+.list_item:hover {
+  background-color: #f3f4f6;
+}
+
+.list_item__text {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #111827;
+}
