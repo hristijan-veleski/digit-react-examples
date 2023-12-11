@@ -14,47 +14,47 @@ import BlinkyRender from "./examples/BlinkyRender.jsx";
 import PrimeCalculator from "./examples/PrimeCalculator.jsx";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Root />,
-        errorElement: <ErrorPage />,
-    },
-    {
-        path: "/greetings",
-        element: <Greetings />,
-    },
-    {
-        path: "/count-and-greetings",
-        element: <CountAndGreetings />,
-    },
-    {
-        path: "/velocity-example",
-        element: <VelocityExample />,
-    },
-    {
-        path: "/movies",
-        element: <Movies />,
-    },
-    {
-        path: "/count-reducer",
-        element: <CountReducer />,
-    },
-    {
-        path: "/count-context",
-        element: <CountContext />,
-    },
-    {
-        path: "/blinky-render",
-        element: <BlinkyRender />,
-    },
-    {
-        path: "/prime-calculator",
-        element: <PrimeCalculator />,
-    },
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/greetings",
+    element: <Greetings />,
+  },
+  {
+    path: "/count-and-greetings",
+    element: <CountAndGreetings />,
+  },
+  {
+    path: "/velocity-example",
+    element: <VelocityExample />,
+  },
+  {
+    path: "/movies",
+    element: <Movies />,
+  },
+  {
+    path: "/count-reducer",
+    element: <CountReducer />,
+  },
+  {
+    path: "/count-context",
+    element: <CountContext />,
+  },
+  {
+    path: "/blinky-render",
+    element: <BlinkyRender />,
+  },
+  {
+    path: "/prime-calculator",
+    element: <PrimeCalculator />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>,
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 );

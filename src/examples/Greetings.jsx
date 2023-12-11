@@ -9,13 +9,7 @@ function Greetings() {
     <div>
       <form>
         <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          onChange={handleChange}
-          value={name}
-        />
+        <input type="text" name="name" id="name" />
       </form>
       {name ? <strong>Hello {name}</strong> : "Please type your name"}
     </div>

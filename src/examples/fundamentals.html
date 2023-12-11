@@ -11,31 +11,8 @@
   </body>
 </html>
 
-<script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+<!-- <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7.23.5/babel.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.23.5/babel.js"></script> -->
 
-<script type="text/babel">
-  function Message({ children, className }) {
-    return <div className={className}>{children}</div>;
-  }
-
-  const rootNode = document.getElementById("root");
-  const condition = false;
-
-  const dynamicClassName = `string ${condition && "message"}`;
-  const elementNode = (
-    <div>
-      {condition ? (
-        <Message className={dynamicClassName}>hello</Message>
-      ) : (
-        "not Message"
-      )}
-      <Message>world</Message>
-    </div>
-  );
-
-  console.log(elementNode);
-  const reactRoot = ReactDOM.createRoot(rootNode);
-  reactRoot.render(elementNode);
-</script>
+<script type="text/babel"></script>

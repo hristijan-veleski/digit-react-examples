@@ -7,19 +7,22 @@ function CountAndGreetings() {
   return (
     <div>
       <Greeting name={name} setName={setName} />
+      <br />
+      <br />
       <Count count={count} setCount={setCount} />
     </div>
   );
 }
+
 function Count({ count, setCount }) {
   function handleChange() {
-    setCount((prev) => prev + 1);
+    setCount((curr) => curr + 1);
   }
 
   return (
     <div>
       <button onClick={handleChange}>Increase</button>
-      <span>{count}</span>
+      <p>The current count is {count}</p>
     </div>
   );
 }

@@ -20,7 +20,6 @@ function movieReducer(state, action) {
         loading: false,
       };
     case "ERROR":
-      console.log("This runs", action.payload);
       return {
         movieName: state.movieName,
         movie: null,
