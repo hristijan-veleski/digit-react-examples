@@ -1,5 +1,3 @@
-# React + Vite
-
 This repository contains examples and presentation about React Components and Hooks.
 You can find the presentation in the `presentation` folder.
 Also you can find the finished examples in the `src/final` folder,
