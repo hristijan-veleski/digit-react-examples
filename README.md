@@ -13,3 +13,5 @@ cd digit-react-examples
 npm install
 npm run dev
 ```
+
+If you like mentorship you can contact me at hristijan.veleski@grabit.io
